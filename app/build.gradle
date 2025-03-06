@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace 'com.lspooo.common'
+    namespace 'com.lspooo.library'
     compileSdk 35
 
     defaultConfig {

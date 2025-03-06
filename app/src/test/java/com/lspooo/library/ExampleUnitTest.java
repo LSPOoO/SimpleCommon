@@ -1,4 +1,4 @@
-package com.lspooo.common;
+package com.lspooo.library;
 
 import org.junit.Test;
 
