@@ -1,4 +1,4 @@
-package com.lspooo.library.utils;
+package com.lspooo.common.utils;
 
 import android.content.Context;
 import android.widget.Toast;
