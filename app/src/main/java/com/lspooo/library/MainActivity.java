@@ -11,8 +11,11 @@ public class MainActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
+//        EdgeToEdge.enable(this);
+        setDisplayHomeAsUp(false);
         setToolbarTitle(getString(R.string.app_name));
+        //Launcher禁止侧滑
+        setSwipeBackEnable(false);
 
         findViewById(R.id.btn_material_design).setOnClickListener(new View.OnClickListener() {
             @Override
