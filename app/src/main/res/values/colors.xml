@@ -3,9 +3,6 @@
 
     <color name="base_color">#ff303F9F</color>
     <color name="action_bar_color">@color/base_color</color>
-
-
-
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="red">#ffff3e3e </color>

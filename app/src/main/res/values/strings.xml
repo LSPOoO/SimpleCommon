@@ -1,9 +1,3 @@
 <resources>
     <string name="app_name">SimpleCommon</string>
-    <string name="text_material_design">Material Design</string>
-    <string name="text_menu_backup">Backup</string>
-    <string name="text_menu_delete">Delete</string>
-    <string name="text_menu_settings">Settings</string>
-
-
 </resources>
