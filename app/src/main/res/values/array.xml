@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--NavigationBar 名称数组-->
+    <array name="navigation_bar_item_name_array">
+        <item>@string/navigation_item_main</item>
+        <item>@string/navigation_item_contact</item>
+        <item>@string/navigation_item_find</item>
+        <item>@string/navigation_item_setting</item>
+    </array>
+    <!--NavigationBar 图标数组normal-->
+    <array name="navigation_bar_item_icon_array">
+        <item>@drawable/tab_communication_icon_normal</item>
+        <item>@drawable/tab_contact_icon_normal</item>
+        <item>@drawable/tab_setting_icon_normal</item>
+        <item>@drawable/tab_setting_icon_normal</item>
+    </array>
+    <!--NavigationBar 图标数组on-->
+    <array name="navigation_bar_item_checked_icon_array">
+        <item>@drawable/tab_communication_icon_on</item>
+        <item>@drawable/tab_contact_icon_on</item>
+        <item>@drawable/tab_setting_icon_on</item>
+        <item>@drawable/tab_setting_icon_on</item>
+    </array>
+    <!--与NavigationBar关联的Fragment的ID数组-->
+    <array name="navigation_bar_attached_fragment_array">
+        <item>@id/main_fragment</item>
+        <item>@id/contact_fragment</item>
+        <item>@id/find_fragment</item>
+        <item>@id/setting_fragment</item>
+    </array>
+
+
+
+</resources>

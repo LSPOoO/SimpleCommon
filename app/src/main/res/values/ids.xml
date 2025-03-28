@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="main_fragment" />
+    <item type="id" name="contact_fragment" />
+    <item type="id" name="find_fragment" />
+    <item type="id" name="setting_fragment" />
+</resources>

@@ -14,4 +14,16 @@
     </declare-styleable>
 
     <attr name="SwipeBackLayoutStyle" format="reference"/>
+
+    <declare-styleable name="NavigationBarView">
+        <attr name="labelArray" format="reference"/>
+        <attr name="iconArray" format="reference"/>
+        <attr name="checkedIconArray" format="reference"/>
+        <attr name="attachedFragmentArray" format="reference"/>
+        <attr name="labelSize" format="dimension"/>
+        <attr name="labelColor" format="color"/>
+        <attr name="labelCheckedColor" format="color"/>
+    </declare-styleable>
+
+
 </resources>

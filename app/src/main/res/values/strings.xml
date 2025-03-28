@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">SimpleCommon</string>
+
+    <string name="navigation_item_main">LSPOoO</string>
+    <string name="navigation_item_contact">通讯录</string>
+    <string name="navigation_item_find">发现</string>
+    <string name="navigation_item_setting">我</string>
+
+
+
+
 </resources>

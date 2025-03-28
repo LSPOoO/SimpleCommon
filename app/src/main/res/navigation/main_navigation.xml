@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/main_fragment">
+
+    <fragment
+        android:id="@id/main_fragment"
+        android:name="com.lspooo.library.fragment.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/fragment_main"/>
+    <fragment
+        android:id="@id/contact_fragment"
+        android:name="com.lspooo.library.fragment.ContactFragment"
+        android:label="ContactFragment"
+        tools:layout="@layout/fragment_contact"/>
+    <fragment
+        android:id="@id/find_fragment"
+        android:name="com.lspooo.library.fragment.FindFragment"
+        android:label="FindFragment"
+        tools:layout="@layout/fragment_find"/>
+    <fragment
+        android:id="@id/setting_fragment"
+        android:name="com.lspooo.library.fragment.SettingFragment"
+        android:label="SettingFragment"
+        tools:layout="@layout/fragment_setting"/>
+</navigation>

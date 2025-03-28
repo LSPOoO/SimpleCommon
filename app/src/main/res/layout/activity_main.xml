@@ -1,15 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
 
-    <Button
-        android:id="@+id/btn_material_design"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="qwe"/>
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_container_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/gray"
+        android:name="androidx.navigation.fragment.NavHostFragment"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/main_navigation"/>
 
-</RelativeLayout>
+    <com.lspooo.common.view.navigationBar.NavigationBarView
+        android:id="@+id/navigation_bar_view"
+        android:layout_width="match_parent"
+        android:layout_height="54.0dp"
+        app:labelArray="@array/navigation_bar_item_name_array"
+        app:iconArray="@array/navigation_bar_item_icon_array"
+        app:checkedIconArray="@array/navigation_bar_item_checked_icon_array"
+        app:attachedFragmentArray="@array/navigation_bar_attached_fragment_array"
+        app:labelSize="@dimen/navigation_bar_label_size"
+        app:labelColor="@color/navigation_bar_label_color"
+        app:labelCheckedColor="@color/navigation_bar_label_checked_color"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
